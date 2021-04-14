@@ -271,7 +271,7 @@ footer {
     text-align: right;
 
     ul {
-        margin: 5px 0 0 0;
+        margin: 40px 0 0 0;
         padding: 0;
     }
 
@@ -283,15 +283,19 @@ footer {
 
     a {
         display: block;
-        color: $text;
+        color: #fff;
         padding: 10px;
 
         &:hover {
-            color: $base-color;
+            color: #aaa;
         }
     }
 }
 
+#contact-form{
+    display: flex;
+    color: #fff;
+}
 .btn-rounded-white {
     display: inline-block;
     color: #fff;
@@ -366,6 +370,7 @@ footer {
 
     h1, h2 {
         margin: 0;
+        white-space: nowrap;
     }
 
     h1 {
